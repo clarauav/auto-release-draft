@@ -1,5 +1,5 @@
 import * as core from '@actions/core'
-// import {wait} from './wait'
+import * as event from './event'
 
 async function run(): Promise<void> {
   try {
