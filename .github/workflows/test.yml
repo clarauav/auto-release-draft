@@ -16,4 +16,4 @@ jobs:
         id: create-release-draft
         uses: ./
       - name: Print theURL of the release draft
-        run: echo ${{ steps. create-release-draft.output.relase-url }}
+        run: echo ${{ steps. create-release-draft.output.relase-url }} 
